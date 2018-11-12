@@ -1,0 +1,31 @@
+.button{
+	-fx-background-color: red;
+	-fx-text-fill: white;
+        -fx-cursor: hand;
+}
+
+.button:hover{
+    -fx-background-color: pink;
+    -fx-text-fill: black;
+}
+
+.button:pressed{
+    -fx-background-color: #c20000;
+    -fx-text-fill: black;
+}
+
+.label{
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+}
+
+.button{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: lightgreen;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-radius:28;
+    -fx-border-color: blue;
+    -fx-background-radius: 28;
+}
