@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="311.0" prefWidth="491.0" stylesheets="@main.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="aulacss.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="311.0" prefWidth="491.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aulacss.FXMLDocumentController">
     <children>
         <Button fx:id="button" layoutX="126" layoutY="90" onAction="#handleButtonAction" style="-fx-background-color: red; -fx-text-fill: white;" text="Click Me!" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
@@ -14,7 +14,8 @@
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="271.0" layoutY="52.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="271.0" layoutY="52.0" mnemonicParsing="false" styleClass="botao-erro" text="Button" />
       <Label layoutX="301.0" layoutY="191.0" text="Label" />
+      <Button fx:id="cancelButton" layoutX="29.0" layoutY="36.0" mnemonicParsing="false" text="Cancel" />
     </children>
 </AnchorPane>

@@ -29,3 +29,21 @@
     -fx-border-color: blue;
     -fx-background-radius: 28;
 }
+
+/* ID */
+#cancelButton{
+    -fx-background-color: lightblue;
+    -fx-text-fill: red;
+}
+
+/* Classe especifica */
+.botao-erro{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+/* Formatacao por mais de uma classe */
+.button, .label{
+    -fx-font-style: italic;
+}
+
